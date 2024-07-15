@@ -60,14 +60,14 @@ Config = {
     },
 
     prePlacedBenches = {
-        {location = vector3(-986, -434, 36), rotation = vector3(0, 0, 0), type = 'weapon'}, -- TYPE needs to be one from above as this is where it will index the object from! {location = vector3(x, y, z), rotation = vector3(x, y, z), type = 'weapon'}
+        {location = vector3(-1166.6, -2019.91, 13.16), rotation = vector3(0, 0, 0), type = 'weapon'}, -- TYPE needs to be one from above as this is where it will index the object from! {location = vector3(x, y, z), rotation = vector3(x, y, z), type = 'weapon'}
     },
 
-    previewBlueprints = true, -- if you want to preview blueprints in the crafting menu
+    previewBlueprints = false, -- if you want to preview blueprints in the crafting menu
 
     enableFavourites = true, -- if you want to enable the favourites system
 
-    unlimitedBlueprints = true, -- if you want blueprints to be unlimited uses
+    unlimitedBlueprints = false, -- if you want blueprints to be unlimited uses
 
     inventoryItemImagesAuto = true, -- if true it will automatically generate the images for the items in the inventory, if false you will need to add the images yourself wtihin the config
 }
